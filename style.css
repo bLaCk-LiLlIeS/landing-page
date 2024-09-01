@@ -1,0 +1,43 @@
+
+video{
+    position: absolute;  
+}
+.nav-link:hover{
+color: red;
+}
+h1,h4,input[type="email"],button{
+    position: relative;
+} 
+.search{
+    background-color: rgba(189, 189, 189, 0.405);
+
+}
+input[type="search"]{
+   background-color: rgba(98, 98, 98, 0.405);
+    border: 0;
+}
+input[type="search"]:focus{
+    accent-color: rgba(98, 98, 98, 0.405) ;
+    background-color: rgba(98, 98, 98, 0.405);
+     border: none;
+}
+input[type="email"]{
+    background-color: rgba(255, 255, 255, 0.137);
+    border: 0;
+}
+.form-control::-webkit-input-placeholder {
+    color: white;
+  }
+input[type="email"]:hover{
+    background-color: rgba(94, 94, 94, 0.544);
+    border-bottom: white;
+}
+input[type="email"]:active{
+    background-color: rgba(236, 62, 62, 0.544);
+   border-bottom: red;
+}
+
+/* work with me CSS */
+/* .intro h1{
+    background-color: #1f232c;
+} */
